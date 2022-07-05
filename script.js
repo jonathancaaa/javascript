@@ -35,3 +35,30 @@ while (menu !== "3") {
 
 //despedida
 alert ("Gracias por tu compra!")
+
+
+//-------------------------------------------------------------------------------------------------------
+
+
+class Jogger {
+    constructor(nombre, color, stock){
+        this.id = id
+        this.nombre = nombre
+        this.color = color
+        this.precio = precio
+        this.stock = stock
+    }
+}
+
+const jogger1 = new panatalon (1, "Roma", "verde", 6000, 50)
+const jogger2 = new panatalon (2, "Paris", "beige", 7800, 150)
+const jogger3 = new panatalon (3, "Lisboa", "negro", 8200, 80)
+
+const jogger =[jogger1, jogger2, jogger3]
+
+jogger.forEach((jogger,indice) =>{
+    console.log(indice)
+    console.log(jogger)
+
+})
+
