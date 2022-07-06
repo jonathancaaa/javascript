@@ -1,4 +1,4 @@
-//variables
+/* //variables
 let producto;
 let joggerRoma = 6000;
 let joggerParis = 7800;
@@ -34,14 +34,14 @@ while (menu !== "3") {
 }
 
 //despedida
-alert ("Gracias por tu compra!")
+alert ("Gracias por tu compra!") */
 
 
 //-------------------------------------------------------------------------------------------------------
 
 
 class Jogger {
-    constructor(nombre, color, stock){
+    constructor(id,nombre, color, precio, stock){
         this.id = id
         this.nombre = nombre
         this.color = color
@@ -50,9 +50,9 @@ class Jogger {
     }
 }
 
-const jogger1 = new panatalon (1, "Roma", "verde", 6000, 50)
-const jogger2 = new panatalon (2, "Paris", "beige", 7800, 150)
-const jogger3 = new panatalon (3, "Lisboa", "negro", 8200, 80)
+const jogger1 = new Jogger (1, "Roma", "verde", 6000, 50)
+const jogger2 = new Jogger (2, "Paris", "beige", 7800, 150)
+const jogger3 = new Jogger (3, "Lisboa", "negro", 8200, 80)
 
 const jogger =[jogger1, jogger2, jogger3]
 
@@ -60,5 +60,6 @@ jogger.forEach((jogger,indice) =>{
     console.log(indice)
     console.log(jogger)
 
-})
+}) 
 
+//https://www.youtube.com/watch?v=A5NE24DiHBE//
