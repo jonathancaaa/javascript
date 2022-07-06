@@ -1,4 +1,4 @@
-/* //variables
+//variables
 let producto;
 let joggerRoma = 6000;
 let joggerParis = 7800;
@@ -34,7 +34,7 @@ while (menu !== "3") {
 }
 
 //despedida
-alert ("Gracias por tu compra!") */
+alert ("Gracias por tu compra!") 
 
 
 //-------------------------------------------------------------------------------------------------------
@@ -62,4 +62,3 @@ jogger.forEach((jogger,indice) =>{
 
 }) 
 
-//https://www.youtube.com/watch?v=A5NE24DiHBE//
