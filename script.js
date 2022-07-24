@@ -1,3 +1,24 @@
+/*-------------------------DarkMode------------------------------------*/
+
+let modo = document.getElementById("modo");
+let body = document.body;
+
+modo.addEventListener("click", function(){
+    let val = body.classList.toggle("dark")
+    localStorage.setItem("modo", val)
+})
+
+let valor=localStorage.getItem("modo")
+
+if(valor=="true") {
+    body.classList.add("dark")
+} else {
+    body.classList.remove("dark")
+}
+
+
+/*--------------------------------Carrito-------------------------------*/
+
 const tarjetas = document.getElementById("tarjetaProducto");
 productosDisponibles.forEach((productosDisponibles,indice)=>{
     let card = document.createElement("div");
@@ -7,7 +28,8 @@ productosDisponibles.forEach((productosDisponibles,indice)=>{
         <h5 class="card-title">${productosDisponibles.nombre}</h5>
         <p class="card-text">${productosDisponibles.descripcion}</p>
         <p class="card-text">$ ${productosDisponibles.precio}</p>
-        <a href="#" class="btn btn-primary" onClick="agregarCarrito(${indice})">COMPRAR</a>
+        <a href="#" class="btn btn-dark
+        " onClick="agregarCarrito(${indice})">COMPRAR</a>
         </div>`;
     tarjetas.appendChild(card);
 });
