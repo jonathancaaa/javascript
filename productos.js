@@ -5,7 +5,7 @@ const productosDisponibles = [
     {id: 3, nombre: "Aros Gota Pink", imagen: "./assets/img/IMG-20220719-WA0043.jpg", precio: 950, descripcion: "Descripcion del Accesorio"},
     {id: 4, nombre: "Aros Tricolor Shine", imagen: "./assets/img/IMG-20220719-WA0045.jpg", precio: 700, descripcion: "Descripcion del Accesorio"},
     {id: 5, nombre: "Aros colgante Flower", imagen: "./assets/img/IMG-20220719-WA0046.jpg", precio: 900, descripcion: "Descripcion del Accesorio"},
-    {id: 6, nombre: "Aros Colgante Flower Shine", imagen: "./assets/img/IMG-20220719-WA0047.jpg", precio: 850, descripcion: "Descripcion del Accesorio"},
+    {id: 6, nombre: "Aros Colgante Flower Shine", imagen: "./assets/img/IMG-20220719-WA0054.jpg", precio: 850, descripcion: "Descripcion del Accesorio"},
     {id: 7, nombre: "Aros Ovalo Violet", imagen: "./assets/img/IMG-20220719-WA0048.jpg", precio: 1000, descripcion: "Descripcion del Accesorio"},
     {id: 8, nombre: "Aros Flowers Golden", imagen: "./assets/img/IMG-20220719-WA0049.jpg", precio: 800, descripcion: "Descripcion del Accesorio"},
     {id: 9, nombre: "Aros  Strass Grays", imagen: "./assets/img/IMG-20220719-WA0050.jpg", precio: 600, descripcion: "Descripcion del Accesorio"},

@@ -28,7 +28,7 @@ productosDisponibles.forEach((productosDisponibles,indice)=>{
         <h5 class="card-title">${productosDisponibles.nombre}</h5>
         <p class="card-text">${productosDisponibles.descripcion}</p>
         <p class="card-text">$ ${productosDisponibles.precio}</p>
-        <a href="#" class="btn btn-dark
+        <a href="#bottonCarrito" class="btn btn-dark
         " onClick="agregarCarrito(${indice})">COMPRAR</a>
         </div>`;
     tarjetas.appendChild(card);
@@ -104,3 +104,13 @@ const finalizarcompra = ()=> {
     `;
     modalCarrito.innerHTML = comprafinalizada;
 }
+/*------------------------------ alerta carrito------------------------------------*/
+const bottonCarrito = document.getElementById('bottonCarrito')
+
+bottonCarrito.addEventListener('click', ()=>{Swal.fire({
+    icon: 'success',
+    title: 'Producti agregado al carrito',
+    text: 'De click abajo para ir a la carrito!',
+   })
+})
+
